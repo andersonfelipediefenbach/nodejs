@@ -1,0 +1,23 @@
+{
+  "name": "nodeexample",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo de implementação node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonfelipediefenbach/nodejs.git"
+  },
+  "author": "Anderson Felipe Diefenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonfelipediefenbach/nodejs/issues"
+  },
+  "homepage": "https://github.com/andersonfelipediefenbach/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
