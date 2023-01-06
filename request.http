@@ -1,0 +1,22 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "book 2",
+    "price": 3 
+}
+
+###
+
+GET http://localhost:4002/products
+content-type: application/json
+
+###
+
+PUT http://localhost:4002/products/6ae3edee-555d-4b4f-8ca1-b140f5087743
+content-type: application/json
+
+{
+    "name": "book 2",
+    "price": 3 
+}
